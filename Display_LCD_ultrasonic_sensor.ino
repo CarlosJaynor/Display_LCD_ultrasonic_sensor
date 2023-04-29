@@ -32,7 +32,7 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
-
+  //comentario que calcula la distancia
   long duration = pulseIn(echoPin, HIGH);
   int distance = duration * 0.034 / 2;  // Calcular la distancia en cm
 
