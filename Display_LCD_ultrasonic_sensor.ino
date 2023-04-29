@@ -24,6 +24,7 @@ void setup() {
   Serial.begin(9600);
 }
 
+//funcion bucle
 void loop() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
