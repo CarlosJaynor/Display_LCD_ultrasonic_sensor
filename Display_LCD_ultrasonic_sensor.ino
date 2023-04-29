@@ -18,6 +18,7 @@ void setup() {
   //definicion del display 16x2
   lcd.begin(16, 2);
 
+  //inicializacion del sensor
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   Serial.begin(9600);
