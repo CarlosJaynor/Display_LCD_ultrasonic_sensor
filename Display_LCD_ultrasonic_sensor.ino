@@ -41,7 +41,7 @@ void loop() {
   lcd.print("Distancia: ");
   lcd.print(distance);
   lcd.print(" cm");
-
+  //mostrar en el serial monitor
   Serial.print("Distancia: ");
   Serial.print(distance);
   Serial.println(" cm");
